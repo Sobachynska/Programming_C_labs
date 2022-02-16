@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_CTYPE, "ukr");
+	setlocale (LC_CTYPE, "ukr");
 	float z1, z2, alf;
 	cout << "Введiть альфа ";
 	cin >> alf;
