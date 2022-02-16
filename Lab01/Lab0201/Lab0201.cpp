@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 { 
-	setlocale (LC_CTYPE, "ukr");
+	setlocale(LC_CTYPE, "ukr");
 	float gal, benz, gal1, l, all;
 	gal = 12776;
 	benz = 45;
