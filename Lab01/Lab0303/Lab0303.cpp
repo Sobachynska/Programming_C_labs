@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	setlocale (LC_CTYPE, "ukr");
+	setlocale(LC_CTYPE, "ukr");
 	cout << "Довжина сторони > Висота" << endl;
 	int a;
 	cout << "Довжина сторони ";
