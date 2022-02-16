@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    setlocale (LC_CTYPE, "ukr");
+    setlocale(LC_CTYPE, "ukr");
     int a = 0;
     int b = 0;
     int pows, abss, res = 0;
