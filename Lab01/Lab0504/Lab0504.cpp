@@ -13,4 +13,5 @@ int main()
 	z2 = (4 * cos(alf / 2)) * (cos(5 / 2 * alf)) * (cos(4 * alf));
 	cout << "z1=" << z1 << endl;
 	cout << "z2=" << z2;
+
 }
