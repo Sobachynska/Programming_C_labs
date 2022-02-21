@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
     setlocale(LC_CTYPE, "ukr");
-    float a;
-    int f;
+    float a = 0;
+    float f;
     cout << "Введіть дійсне число: ";
     cin >> a;
     if (a < -1)
