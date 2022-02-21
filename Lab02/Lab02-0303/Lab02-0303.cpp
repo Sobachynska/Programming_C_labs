@@ -6,16 +6,16 @@ using namespace std;
 int main()
 {
     setlocale(LC_CTYPE, "ukr");
-    float a, f(a);
+    float a;
+    int f;
+    cout << "Введіть число: ";
     cin >> a;
-    if (a < 1)
-        f(a) = 0 * a;
+    if (a < -1)
+        f = 0 * a;
     else
         if (a < 1)
-            f(a) = sqrt(1 - pow(a, 2));
-        else f(a) = a - 1;
-
-    cout << "f(a)" << f(a);
-
+            f = sqrt(1 - pow(a, 2));
+        else f = a - 1;
+    cout << "f(a) = " << f;
     return 0;
 }
