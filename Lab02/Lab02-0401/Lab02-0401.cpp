@@ -29,4 +29,5 @@ int main()
 			F = (x / c);
 		}
 	cout << "F = " << F;
+	return 0;
 }
