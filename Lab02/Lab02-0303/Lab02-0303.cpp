@@ -7,7 +7,7 @@ int main()
 {
     setlocale(LC_CTYPE, "ukr");
     float f, a = 0;
-    cout << "Введіть дійсне число: ";
+    cout << "Введіть дійсне число a: ";
     cin >> a;
     if (a < -1)
         f = 0 * a;
