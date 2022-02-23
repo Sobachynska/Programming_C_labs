@@ -7,16 +7,16 @@ int main()
 	setlocale(LC_CTYPE, "ukr");
 	float F;
 	float a;
-	cout << "Введіть a ";
+	cout << "Введiть a ";
 	cin >> a;
 	float b;
-	cout << "Введіть b ";
+	cout << "Введiть b ";
 	cin >> b;
 	float c;
-	cout << "Введіть c ";
+	cout << "Введiть c ";
 	cin >> c;
 	float x;
-	cout << "Введіть x ";
+	cout << "Введiть x ";
 	cin >> x;
 	if ((x < 0 and b != 0)) {
 		F = (a * pow(x, 2) + b);
