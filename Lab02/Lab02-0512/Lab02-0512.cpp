@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿//так як n строго між 1 і 4, тому воно дорівнює 2 або 3
+#include <iostream>
 #include <math.h>
 
     using namespace std;
