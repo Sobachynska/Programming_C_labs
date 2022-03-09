@@ -11,7 +11,7 @@ int main()
 	cin >> n;
 	sum = 0;
 	z = 0;
-	for (i = 1; n>=i; n--)
+	for (i = 1; n>=i;++i)
 	{
 		z = z + sin(i);
 		sum = sum + 1 / z;
