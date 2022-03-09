@@ -3,9 +3,23 @@
 
 using namespace std;
 
-int main() 
+int main()
 {
 	setlocale(LC_CTYPE, "ukr");
-	
-	return 0;
+	double sum,  i , z;
+	int n;
+	cin >> n;
+	sum = 0;
+	z = 0;
+	for (i = 1; n>=i; n--)
+	{
+		z = z + sin(i);
+		sum = sum + 1 / z;
+
 	}
+	cout << sum;
+
+		return 0;
+}
+
+	
