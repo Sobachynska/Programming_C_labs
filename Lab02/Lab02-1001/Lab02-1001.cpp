@@ -14,10 +14,10 @@ int main()
     cin >> i;
     cout << "Ведіть j: ";
     cin >> j;
-    for (i = 1; i <= 100; i++) {
-        for (j = 1; j <= 50; j++);
-            a = (i + j); 
-    }
+    for (i = 1; i <= 100; i++) 
+        for (j = 1; j <= 50; j++) 
+            a = (i + j);
+        
     cout << "Результат: " << a;
 
 
