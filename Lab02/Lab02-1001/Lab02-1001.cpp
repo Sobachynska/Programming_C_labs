@@ -6,21 +6,17 @@
 using namespace std;
 int main()
 {
-    setlocale(LC_CTYPE, "ukr");
-   
-    int i, j;
-    double a=0;
-    cout << "Ведіть i: ";
-    cin >> i;
-    cout << "Ведіть j: ";
-    cin >> j;
-    for (i = 1; i <= 100; i++) 
-        for (j = 1; j <= 50; j++) 
-            a = (i + j);
-        
-    cout << "Результат: " << a;
+    int sum = 0;
+    int S;
+    for (int i = 1; i <= 100; i++) {
+        for (int j = 1; j <= 50; j++) {
+            for (int j = 1; i <= 50; i++) {
+                S = i + j;
+            }
+        }
 
-
+    }
+    cout << "S= " << S << endl;
     return 0;
 }
 
