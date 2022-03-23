@@ -6,18 +6,18 @@
 using namespace std;
 int main()
 {
-    int sum = 0;
-    int S;
-    for (int i = 1; i <= 100; i++) {
-        for (int j = 1; j <= 50; j++) {
-            for (int j = 1; i <= 50; i++) {
-                S = i + j;
-            }
-        }
+    long long int i, j, Summ = 0, Total = 0;
 
+    for (i = 1; i <= 100; i++)
+    {
+        for (j = 1; j <= 50; j++)
+        {
+            Summ = Summ + (j + j);
+        }
+        Total = Total + Summ;
+        Summ = 0;
     }
-    cout << "S= " << S << endl;
-    return 0;
+    std::cout << Total << "\n";
 }
 
 
