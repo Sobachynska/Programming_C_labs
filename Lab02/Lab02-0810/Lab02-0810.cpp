@@ -5,19 +5,21 @@ using namespace std;
 
 int main()
 {
-    int n, answer = 0;
-    double a;
-    cout << "input n= ";
-    cin >> n; 
-    for (int j = 0; j < n; j++) {
+    long long int n, count = 0;
+    double x, a, cos_a, sum = 0;
+    std::cout << "x=";
+    std::cin >> x;
+    std::cout << "n=";
+    std::cin >> n;
 
-        cout << "Enter a" << j + 1 << "= ";
-        cin >> a; 
-
-        answer = answer + cos(a);
-
+    for (int k = 1; k <= n; k++)
+    {
+        std::cout << "a" << k << "=";
+        std::cin >> a;
+        cos_a = cos(sum + a);
+        std::cout << cos_a << "\n";
+        if (x == cos_a) { count++; }
     }
-    cout << answer; 
+    std::cout << count << "\n";
 
-    return 0;
 }
