@@ -12,8 +12,12 @@ int main()
     if (a < -1)
         f = 0 * a;
     else
-        if (a < 1)
+        if (a < 1) {
+            
             f = sqrt(1 - pow(a, 2));
+
+        }
+            
         else f = a - 1;
     cout << "f(a) = " << f;
     return 0;
