@@ -9,6 +9,7 @@ int main()
     tmp1 = x0;
     tmp2 = x1;
 
+    cout << "vvedit n: ";
     std::cin >> n;
 
     for (int i = 3; i <= n; i++)
@@ -20,4 +21,3 @@ int main()
 
     std::cout << x << "\n";
 }
-
