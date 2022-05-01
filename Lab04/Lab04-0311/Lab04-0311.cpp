@@ -10,7 +10,7 @@ int main()
     float x;
     int min, max;
 
-    float arr[5] = { 1.0, 5.8, 23.4, 54.3, 57.9 };
+    float arr[5] = { 2.0, 4.5, 27.5, 53.1, 87.4 };
     cout << "введiть x: ";
     cin >> x;
     for (int a = 0; a < p - 1; a++) {
