@@ -12,7 +12,7 @@ int main()
     {
         for (j = 1; j <= 50; j++)
         {
-            Summ = Summ + (j + j);
+            Summ = Summ + (i + j);
         }
         Total = Total + Summ;
         Summ = 0;
